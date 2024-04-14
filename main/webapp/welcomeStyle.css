@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('bg.png');
+    background-size: cover; /* or contain, depending on your preference */
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 10;
+        color: #333;
+    
+}
+
+.container {
+	width: 400px;
+	height: 400px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	overflow: hidden; /* Hide the overflow */
+}
+
+
+
+h1 {
+	font-weight: bold;
+	color: #9b5d73;
+}
+
+p {
+	margin: 20px 0;
+	line-height: 1.6;
+}
+
+.links a {
+	margin: 0 10px;
+	text-decoration: none;
+	color: #007BFF;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.links a:hover {
+	color: #ddaefa;
+	font-sirgb(64, 0, 128) 0, 128)x;
+	text-transform: uppercase;
+}
